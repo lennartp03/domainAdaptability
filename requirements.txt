@@ -1,0 +1,9 @@
+kornia==0.7.0
+kornia-moons==0.2.8
+kornia-rs==0.0.8
+numpy==1.23.5
+pytorch==2.0.1
+matplotlib==3.5.3  
+pandas==1.5.3
+tqdm==4.65.0
+seaborn==0.12.2
