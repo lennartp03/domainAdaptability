@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ### Downloading the HPatches dataset
 To start the download that extracts all the files necessary for this experiment just run the following shell script:
 ```
-./download_hpatches.sh
+./download.sh
 ```
 Reference: Dusmanu et al. (2019) - https://github.com/mihaidusmanu/d2-net/blob/master/hpatches_sequences/download.sh
 
