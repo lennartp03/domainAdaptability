@@ -40,8 +40,9 @@ python extraction/extractDISK.py
 ```
 For each image, a .npz file with the extracted keypoints and descriptors will be created in the folder "hpatches_sequences/hpatches-sequences-results/[imageName]".
 
+*Note*: By executing this experiment in the exact same environment and steps as described here, the results will be reproducible. That´s why the ./hpacthes_sequences folder with my own preliminary results (keypoints ands descriptors used for calculating the metrics) are not included in this repository. In case you want to use them, please contact the owner of this repository.
 
-The used algorithms support CUDA acceleration, if a CUDA capable GPU is available. To facilitate the process, a Google Colab notebook was created that executes every ne. The resulting result.zip file needs to be downloaded and extracted into the root folder of this project to guarantee the correct functionality of the evaluation scripts. Access to this notebook can be granted upon request.
+*Recommendation*: The selected algorithms support CUDA acceleration, if a CUDA capable GPU is available. To facilitate the process, a Google Colab notebook was created that combines the whole execution into one. The resulting result.zip file needs to be downloaded and extracted into the root folder of this project to guarantee the correct functionality of the evaluation scripts. Access to this notebook can be granted upon request.
 
 ### Evaluation
 For evaluating the Mean Matching Accuray (MMA) execute the following script (See also: https://github.com/mihaidusmanu/d2-net/blob/master/hpatches_sequences/HPatches-Sequences-Matching-Benchmark.ipynb):
